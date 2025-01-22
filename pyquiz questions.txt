@@ -1,0 +1,83 @@
+1. Which of the following statement is invalid in Python?
+ __str__=1
+ __var=1
+ _var=1
+ None
+2. Quick sort algorithm is an example of
+ Improved Binary Search
+ Divide and Conquer
+ Dynamic Programming
+ Greedy Approach
+3.The searching technique that takes 0(1) time to find a data is
+ Tree Search
+ Hashing
+ Binary Search
+ Linear Search
+4.It is an array of some fixed size
+ Hash Table
+ Linear Search
+ Tree Search
+ Greedy Approach
+5.Which of the following is not a python keyword?
+ nonlocal
+ local
+ assert
+ eval
+6.They include numeric values that can be either integer, floating point value, or a complex number.
+ Numeric literals
+ A character literals
+ Boolean literals
+ String literals
+7.___ is created by assigning some text enclosed in single or double quotes to a variable. To create multiline literals, assign the multiline text enclosed in triple quotes.
+ String literals
+ A character literal
+ Numeric literals
+ Boolean literals
+8.What is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in a wrong order?
+ Selection Sort
+ Bubble Sort
+ Quick Sort
+ Insertion Sort
+9.Searching algorithm which the basic idea is to check fewer elements by skipping some elements in place of searching all elements.
+ Exponential Search
+ Binary Search
+ Jump Search
+ Linear Search
+10.An algorithm that made up of series of instructions that takes an array as inputs and outputs a sorted array is called
+ Searching Algorithm
+ Sorting Algorithm
+ Divide and Conquer
+ Greedy Algorithm
+
+
+Ans:
+
+1. The invalid statement in Python is:
+   b. __var=1
+
+2. Quick sort algorithm is an example of:
+   b. Divide and Conquer
+
+3. The searching technique that takes O(1) time to find a data is:
+   b. Hashing
+
+4. It is an array of some fixed size:
+   a. Hash Table
+
+5. Which of the following is not a Python keyword?
+   b. local
+
+6. They include numeric values that can be either an integer, floating-point value, or a complex number:
+   a. Numeric literals
+
+7. ___ is created by assigning some text enclosed in single or double quotes to a variable. To create multiline literals, assign the multiline text enclosed in triple quotes:
+   a. String literals
+
+8. What is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in the wrong order?
+   b. Bubble Sort
+
+9. The searching algorithm which the basic idea is to check fewer elements by skipping some elements in place of searching all elements:
+   c. Jump Search
+
+10. An algorithm that is made up of a series of instructions that takes an array as inputs and outputs a sorted array is called:
+    b. Sorting Algorithm

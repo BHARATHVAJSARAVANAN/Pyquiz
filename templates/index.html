@@ -1,0 +1,75 @@
+{% extends 'layout.html' %}
+
+{% block title %}Index{% endblock %}
+
+{% block body %}
+
+<div
+id="carouselExampleControls"
+class="carousel slide"
+data-bs-ride="carousel"
+>
+<div class="carousel-inner">
+  <div class="carousel-item active">
+    <img
+      class="d-block w-100"
+      height="500px"
+      src="https://www.imcgrupo.com/wp-content/uploads/2022/03/Types-of-Online-Quizzes-and-how-to-Create-One.png"
+      alt="First slide"
+    />
+  </div>
+  <div class="carousel-item">
+    <img
+      class="d-block w-100"
+      height="500px"
+      src="https://masterprograming.com/wp-content/uploads/2020/02/Python-Quiz-In-Hindi.png"
+      alt="Second slide"
+    />
+  </div>
+  <div class="carousel-item">
+    <img
+      class="d-block w-100"
+      src="https://elearningindustry.com/wp-content/uploads/2019/09/use-online-quiz-tools-to-improve-student-sucess.jpg"
+      height="500px"
+      alt="Third slide"
+    />
+  </div>
+  
+</div>
+
+<button
+  class="carousel-control-prev"
+  type="button"
+  data-bs-target="#carouselExampleControls"
+  data-bs-slide="prev"
+>
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+<button
+  class="carousel-control-next"
+  type="button"
+  data-bs-target="#carouselExampleControls"
+  data-bs-slide="next"
+>
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+
+</div>
+
+<div class="container mt-5 mb-5">
+<div class="row">
+  <p>Hello{% if request.user.is_authenticated %} {{ request.user.username }}{% endif %},</p>
+</div>
+<div class="row">
+  <p>Here, students have the opportunity to contribute their own questions and challenge other students. We believe that learning is not limited to textbooks, and by creating this platform, We aim to foster a collaborative and engaging environment for students to expand their knowledge. With the ability to add questions and participate in quizzes, students can actively participate in the learning process and test their understanding of Python.</p>
+</div>
+<div class="row">
+  <p><center>Click Quiz and Start the Test.</center></p>
+</div>
+<div class="row">
+  <p><center> Happy quizzing!</center></p>
+</div>
+</div>
+{% endblock %}
